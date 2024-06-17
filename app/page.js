@@ -107,7 +107,11 @@ export default function Home() {
           <button onClick={toggleTheme}>
             {isDarkMode ? <MdLightMode /> : <MdDarkMode />}
           </button>
-          <a>
+          <a
+            href="https://github.com/ulfflo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
           <a>
@@ -163,7 +167,12 @@ export default function Home() {
         </div>
         <div>
           <div className="flex justify-center gap-16 mb-12">
-            <Card />
+            <Card
+              title="Quiz"
+              description="A quiz made with Next.js and Redux"
+              git="https://github.com/Ulfflo/quiz-redux"
+              link="https://quiz-redux-rdziuy51p-ulf-flodens-projects.vercel.app/"
+            />
             <Card />
             <Card />
           </div>
