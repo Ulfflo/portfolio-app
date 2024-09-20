@@ -138,7 +138,7 @@ export default function Home() {
         <div className="flex items-center justify-center mt-12 md:mt-36 md:w-1/2">
           <Image
             src={Ulf}
-            className="placeholder:blur w-40 h-40 md:w-80 md:h-80 rounded-full border-4 border-solid"
+            className="placeholder:blur aspect-[1/1] w-auto max-w-xs md:max-w-sm rounded-full border-4 border-solid object-cover"
             alt="Ulf's Picture"
           />
         </div>
@@ -188,7 +188,10 @@ export default function Home() {
       </div>
 
       <div>
-        <div id="projects" className="flex flex-col text-center mb-8 md:mb-16 scroll-mt-36">
+        <div
+          id="projects"
+          className="flex flex-col text-center mb-8 md:mb-16 scroll-mt-36"
+        >
           <h2 className="text-xl md:text-2xl text-blue-950 dark:text-white font-bold mb-3">
             Projects
           </h2>
@@ -231,7 +234,7 @@ export default function Home() {
             <Card
               picture={fairy}
               title="FairyTailor"
-              description="Brings you AI-generated fairytales. Built with Next.js, Express and MySQL."
+              description="Brings you AI-generated fairytales. Built with Next.js, Express, MySQL and ChatGPT API."
               git="https://github.com/Ulfflo/FairyTailor"
             />
             <Card
