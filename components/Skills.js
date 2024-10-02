@@ -36,7 +36,7 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="w-full px-6 sm:px-16 xl:max-w-[90rem] mx-auto h-auto justify-center"
+      className="w-full px-4 sm:px-16 xl:max-w-[90rem] mx-auto h-auto justify-center"
     >
       <div className="mx-auto flex flex-col justify-center h-full">
         <div className="flex flex-wrap justify-center mx-auto gap-4">
