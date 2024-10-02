@@ -22,6 +22,7 @@ import zoombild from "../public/zoombild.jpg";
 import cookbook from "../public/cookbook.jpg";
 import fairy from "../public/fairy.jpg";
 import grodan from "../public/grodan.jpg";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -172,7 +173,8 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="flex justify-center gap-4 md:gap-12 mb-6 md:mb-12">
+          <Skills/>
+          {/* <div className="flex justify-center gap-4 md:gap-12 mb-6 md:mb-12">
             <FaHtml5 className="text-orange-500 w-12 h-12 md:w-20 md:h-20" />
             <IoLogoCss3 className="text-blue-500 w-12 h-12 md:w-20 md:h-20" />
             <IoLogoJavascript className="text-yellow-400 w-12 h-12 md:w-20 md:h-20" />
@@ -183,7 +185,7 @@ export default function Home() {
             <SiTailwindcss className="text-cyan-500 w-12 h-12 md:w-20 md:h-20" />
             <TbBrandVscode className="text-blue-600 w-12 h-12 md:w-20 md:h-20" />
             <FaGithub className="w-12 h-12 md:w-20 md:h-20" />
-          </div>
+          </div> */}
         </div>
       </div>
 
